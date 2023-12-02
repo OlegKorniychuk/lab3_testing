@@ -33,5 +33,4 @@ class Game {
   }
 }
 
-const tetris = new Game('test.txt', GameHandler, inputReader, consolePrinter);
-tetris.playGame();
+module.exports = Game;

@@ -36,6 +36,7 @@ const inputReader = (inputFilePath) => {
     return [startingField, gameFieldHeight, gameFieldWidth];
   } catch (error) {
     console.log(`Can't open file at ${inputFilePath}`);
+    return false;
   }
 }
 
